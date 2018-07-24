@@ -6,7 +6,7 @@ category: Platforms
 
 Available from Android API 1, MvvmCross 3.
 
-MvvmCross has a special implementation of Android's LinearLayout, which works kind of like `DataTemplate` in XAML. This is useful when wanting to repeat a Android layout with MvvmCross bindings multiple times.
+MvvmCross has a special implementation of Android's LinearLayout, which works kind of like `DataTemplate` in XAML. This is useful when you want to repeat a Android layout with MvvmCross bindings multiple times.
 This is very similar to `MvxListView` and `MvxRecyclerView`. However, without the memory management they provide, even though it uses the same `MvxAdapter` as `MvxListView` uses.
 
 In order to use a `MvxLinearLayout` you need to provide a `ItemTemplateId` and a `ItemsSource`. Where the `ItemTemplateId` is the id of the Android layout you want to repeat and the `ItemsSource` being a collection of ViewModels you want to be bound to the layouts.
